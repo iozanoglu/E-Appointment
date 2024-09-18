@@ -3,8 +3,7 @@ using GenericRepository;
 
 namespace E_AppointmentServer.Domain.Repositories
 {
-    public interface IAppointmentRepository : IRepository<Doctor>
+    public interface IAppointmentRepository : IRepository<Appointment>
     {
-
     }
 }

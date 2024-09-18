@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace E_AppointmentServer.Application.Services
 {
-    internal interface IJwtProvider
+    public interface IJwtProvider
     {
         string CreateToken(AppUser user);
     }
